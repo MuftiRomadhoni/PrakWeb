@@ -10,7 +10,7 @@ function getData() {
     return;
   }
   const product = kiriValue + kananValue;
-  alert("hasil penjumlahan = ", product);
+  alert("hasil penjumlahan = " + product);
 }
 
 function resetPage() {
