@@ -7,6 +7,8 @@ document.getElementById("CDLB2").addEventListener("submit", function (event) {
 
   if (name === "" || email === "" || alamat === "") {
     alert("Anda Harus Mengisi data dengan lengkap");
+  } else if (name === "" && email === "" && alamat === "") {
+    alert("Anda Harus Mengisi data dengan lengkap");
   } else {
     alert("Pesan telah dikirim");
   }
